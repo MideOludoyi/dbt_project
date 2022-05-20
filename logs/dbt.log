@@ -1,0 +1,25 @@
+
+
+============================== 2022-05-20 22:48:23.615968 | 40ab9ded-aa61-4f76-ae16-618beb76064a ==============================
+22:48:23.615968 [info ] [MainThread]: Running with dbt=1.1.0
+22:48:23.615968 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\Mayowa Oludoyi\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+22:48:23.617045 [debug] [MainThread]: Tracking: tracking
+22:48:23.633465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F850055DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F850055FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F850055F10>]}
+22:48:34.625802 [debug] [MainThread]: Starter project path: C:\Users\Mayowa Oludoyi\anaconda3\envs\flw_sentiment\lib\site-packages\dbt\include\starter_project
+22:48:54.915828 [info ] [MainThread]: 
+Your new dbt project "bank_etl" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+22:48:54.915828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F850148970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8501520A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F850159100>]}
